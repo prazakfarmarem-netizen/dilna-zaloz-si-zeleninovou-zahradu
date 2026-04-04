@@ -6,7 +6,7 @@ const blocks = [
   { icon: Shovel, title: "Praxe", items: ["Zakládání záhonů", "Výsev a výsadba", "Mulčování a údržba"] },
   { icon: Layers, title: "Půda & kompost", items: ["Jak poznat zdravou půdu", "Kompostování v praxi", "Výživa bez chemie"] },
   { icon: LayoutGrid, title: "Záhony bez rytí", items: ["No-dig metoda krok za krokem", "Vrstvení materiálů", "Praktická ukázka na místě"] },
-  { icon: Wrench, title: "Dovednosti", items: ["Osevní kalendář", "Střídání plodin", "Společné výsadby"] },
+  
 ];
 
 const LearnSection = () => (
