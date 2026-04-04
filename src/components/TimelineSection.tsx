@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 const timeline = [
-  { time: "10:00", label: "Příjezd a uvítání", desc: "Seznámení, káva, přehled dne" },
+  { time: "10:00", label: "Příjezd a uvítání", desc: "Seznámení, káva, čaj, přehled dne" },
   { time: "10:30–12:30", label: "Teorie", desc: "Principy, plánování, půda, osevní plán" },
   { time: "12:30–14:00", label: "Oběd", desc: "Domácí vegetariánský oběd, volná diskuze" },
   { time: "14:00–17:00", label: "Praxe", desc: "Zakládání záhonů, výsev, mulčování, kompost" },
