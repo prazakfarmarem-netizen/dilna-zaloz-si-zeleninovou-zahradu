@@ -18,12 +18,21 @@ const RegistrationForm = () => {
     if (!form.name.trim() || !form.email.trim()) return;
     setLoading(true);
 
-    const { error } = await supabase.from("registrations").insert({
+    const registrationData = {
       name: form.name.trim(),
       email: form.email.trim(),
       phone: form.phone.trim() || null,
       note: form.note.trim() || null,
-    });
+    };
+
+    const { error } = await supabase.from("registrations").insert(registrationData);
+
+    // Send to Make.com webhook (fire-and-forget)
+    fetch("https://hook.eu1.make.com/v0u8yhratoofredi35zkusubaiuw4r36", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(registrationData),
+    }).catch(() => {});
 
     setLoading(false);
 
