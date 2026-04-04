@@ -109,7 +109,7 @@ const RegistrationForm = () => {
         className="w-full h-14 rounded-full"
         disabled={loading}
       >
-        {loading ? "Odesílám..." : "👉 Rezervuj mi místo"}
+        {loading ? "Odesílám..." : "Rezervuj si místo"}
       </Button>
     </form>
   );

@@ -52,7 +52,7 @@ const PricingSection = () => {
             className="w-full h-14 rounded-full"
             onClick={scrollToRegistration}
           >
-            👉 Rezervuj mi místo
+            Rezervuj si místo
           </Button>
         </motion.div>
       </div>
