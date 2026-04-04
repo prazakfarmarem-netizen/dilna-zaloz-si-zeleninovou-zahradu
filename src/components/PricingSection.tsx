@@ -26,14 +26,14 @@ const PricingSection = () => {
           className="bg-card border border-border rounded-xl p-8 md:p-10 max-w-lg mx-auto text-center"
         >
           <p className="text-5xl md:text-6xl font-heading font-bold text-primary mb-2">
-            2 420 Kč
+            2 480 Kč
           </p>
           <p className="text-muted-foreground mb-6">za celý den včetně oběda a materiálů</p>
 
           <div className="space-y-3 text-left mb-8">
             <div className="flex items-center gap-3">
               <CalendarDays className="w-5 h-5 text-leaf shrink-0" />
-              <span className="text-foreground">Termín: <strong>jaro 2026</strong></span>
+              <span className="text-foreground">Termín: <strong>sobota 25. 4. 2026</strong></span>
             </div>
             <div className="flex items-center gap-3">
               <Users className="w-5 h-5 text-leaf shrink-0" />
@@ -43,7 +43,7 @@ const PricingSection = () => {
 
           <div className="flex items-center gap-2 justify-center mb-6 text-warm">
             <AlertTriangle className="w-4 h-4" />
-            <span className="font-semibold text-sm">Kapacita omezená – počet míst je limitovaný</span>
+            <span className="font-semibold text-sm">Kapacita omezená – počet míst se nebude navyšovat</span>
           </div>
 
           <Button
