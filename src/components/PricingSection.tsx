@@ -43,7 +43,7 @@ const PricingSection = () => {
 
           <div className="flex items-center gap-2 justify-center mb-6 text-warm">
             <AlertTriangle className="w-4 h-4" />
-            <span className="font-semibold text-sm">Kapacita omezená – počet míst je limitovaný</span>
+            <span className="font-semibold text-sm">Kapacita omezená – počet míst se nebude navyšovat</span>
           </div>
 
           <Button
