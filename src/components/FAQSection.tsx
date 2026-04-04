@@ -37,7 +37,7 @@ const faqItems = [
   },
   {
     q: "Budu si moct nechat poradit ke své zahradě?",
-    a: "Ano. Počítám s prostorem na dotazy i konkrétní situace.",
+    a: "Budeš mít prostor ptát se na konkrétní dotazy. Pro komplexnější řešení se můžeme domluvit na užší spolupráci.",
   },
   {
     q: "Je součástí jídlo?",
