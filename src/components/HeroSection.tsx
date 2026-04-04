@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-garden.jpg";
+import heroImage from "@/assets/hero-garden.png";
 
 const HeroSection = () => {
   const scrollToRegistration = () => {
