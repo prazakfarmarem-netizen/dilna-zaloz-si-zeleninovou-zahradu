@@ -6,7 +6,7 @@ const results = [
   { icon: Calendar, text: "Vytvoříš si vlastní osevní plán na celou sezónu" },
   { icon: Lightbulb, text: "Pochopíš principy, ne jen recepty" },
   { icon: Leaf, text: "Naučíš se pracovat s půdou, ne proti ní" },
-  { icon Hammer, text: "Založíš záhon bez rytí – prakticky na místě" },
+  { icon: Hammer, text: "Založíš záhon bez rytí – prakticky na místě" },
   { icon: Heart, text: "Odejdeš s jistotou a klidem, ne s dalšími otázkami" },
 ];
 
