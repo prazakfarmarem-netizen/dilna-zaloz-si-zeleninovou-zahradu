@@ -4,7 +4,7 @@ import { BookOpen, Calendar, FileText, ClipboardCheck, MessageCircle } from "luc
 const items = [
   { icon: BookOpen, title: "Pracovní sešit", desc: "Tištěný průvodce, do kterého si budeš během dne zapisovat" },
   { icon: Calendar, title: "Osevní kalendář", desc: "Přehledný plán výsevu a výsadby na celou sezónu" },
-  { icon: ClipboardCheck, title: "Test půdy", desc: "Jednoduchý test, abys věděl/a, s čím pracuješ" },
+  
   { icon: FileText, title: "PDF materiály", desc: "Shrnutí dne a další podklady ke stažení" },
   { icon: MessageCircle, title: "Konzultace", desc: "Prostor pro tvoje otázky během celého dne" },
 ];
