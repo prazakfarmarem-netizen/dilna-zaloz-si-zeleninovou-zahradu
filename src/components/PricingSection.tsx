@@ -26,7 +26,7 @@ const PricingSection = () => {
           className="bg-card border border-border rounded-xl p-8 md:p-10 max-w-lg mx-auto text-center"
         >
           <p className="text-5xl md:text-6xl font-heading font-bold text-primary mb-2">
-            2 420 Kč
+            2 480 Kč
           </p>
           <p className="text-muted-foreground mb-6">za celý den včetně oběda a materiálů</p>
 
