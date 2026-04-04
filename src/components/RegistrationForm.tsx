@@ -5,6 +5,8 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { CheckCircle2 } from "lucide-react";
+import { supabase } from "@/integrations/supabase/client";
+import { toast } from "@/hooks/use-toast";
 
 const RegistrationForm = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -15,9 +17,25 @@ const RegistrationForm = () => {
     e.preventDefault();
     if (!form.name.trim() || !form.email.trim()) return;
     setLoading(true);
-    // Simulate submission
-    await new Promise((r) => setTimeout(r, 1000));
+
+    const { error } = await supabase.from("registrations").insert({
+      name: form.name.trim(),
+      email: form.email.trim(),
+      phone: form.phone.trim() || null,
+      note: form.note.trim() || null,
+    });
+
     setLoading(false);
+
+    if (error) {
+      toast({
+        title: "Chyba při odesílání",
+        description: "Zkus to prosím znovu.",
+        variant: "destructive",
+      });
+      return;
+    }
+
     setSubmitted(true);
   };
 
