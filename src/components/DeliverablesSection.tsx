@@ -4,7 +4,7 @@ import { BookOpen, Calendar, FileText, ClipboardCheck, MessageCircle } from "luc
 const items = [
   { icon: BookOpen, title: "Pracovní sešit", desc: "Tištěný průvodce, do kterého si budeš během dne zapisovat" },
   { icon: Calendar, title: "Osevní kalendář", desc: "Přehledný plán výsevu a výsadby na celou sezónu" },
-  { icon: ClipboardCheck, title: "Test půdy", desc: "Jednoduchý test, abys věděl/a, s čím pracuješ" },
+  
   { icon: FileText, title: "PDF materiály", desc: "Shrnutí dne a další podklady ke stažení" },
   { icon: MessageCircle, title: "Konzultace", desc: "Prostor pro tvoje otázky během celého dne" },
 ];
@@ -29,7 +29,7 @@ const DeliverablesSection = () => (
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.1 }}
-            className="bg-card rounded-lg p-5 border border-border text-center"
+            className="bg-card rounded-lg p-5 border-border text-center px-0 py-0 border-0 opacity-100"
           >
             <item.icon className="w-8 h-8 text-leaf mx-auto mb-3" />
             <h3 className="font-heading text-base font-semibold text-foreground mb-1">{item.title}</h3>
