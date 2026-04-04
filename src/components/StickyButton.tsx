@@ -32,7 +32,7 @@ const StickyButton = () => {
             className="h-14 px-8 rounded-full shadow-2xl"
             onClick={scrollToRegistration}
           >
-            👉 Rezervuj mi místo
+            Rezervuj si místo
           </Button>
         </motion.div>
       )}

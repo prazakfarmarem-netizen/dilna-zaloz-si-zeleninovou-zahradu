@@ -47,7 +47,7 @@ const HeroSection = () => {
             className="h-14 px-10 rounded-full"
             onClick={scrollToRegistration}
           >
-            👉 Rezervuj mi místo
+            Rezervuj si místo
           </Button>
         </motion.div>
       </div>
