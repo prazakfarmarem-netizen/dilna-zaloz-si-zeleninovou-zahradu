@@ -29,7 +29,7 @@ const DeliverablesSection = () => (
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.1 }}
-            className="bg-card rounded-lg p-5 border border-border text-center"
+            className="bg-card rounded-lg p-5 border-border text-center px-0 py-0 border-0 opacity-100"
           >
             <item.icon className="w-8 h-8 text-leaf mx-auto mb-3" />
             <h3 className="font-heading text-base font-semibold text-foreground mb-1">{item.title}</h3>
