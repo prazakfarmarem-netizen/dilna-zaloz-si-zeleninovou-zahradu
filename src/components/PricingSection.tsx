@@ -50,9 +50,11 @@ const PricingSection = () => {
             variant="hero"
             size="lg"
             className="w-full h-14 rounded-full"
-            onClick={scrollToRegistration}
+            asChild
           >
-            Rezervuj si místo
+            <a href="https://www.fairplay.events/cs/zaloz-si-vlastni-zeleninovou-zahradu-2026-f99b" target="_blank" rel="noopener noreferrer">
+              Koupit vstupenku
+            </a>
           </Button>
         </motion.div>
       </div>
