@@ -3,7 +3,7 @@ import { BookOpen, Shovel, Layers, LayoutGrid, Wrench } from "lucide-react";
 
 const blocks = [
   { icon: BookOpen, title: "Základy", items: ["Jak pěstovat přírodně", "Jak funguje zdravá zahrada", "Plán výsadby na míru Tvé zahradě"] },
-  { icon: Shovel, title: "Praxe", items: ["Zakládání záhonů", "Výsev a výsadba", "Mulčování a údržba"] },
+  { icon: Shovel, title: "Praxe", items: ["Založíš záhon", "Naučíš se sadit a sít tak, aby se Tvá úroda ujala ", "Mulčování a údržba"] },
   { icon: Layers, title: "Půda & kompost", items: ["Jak na zdravou půdu, aby to rostlo skoro samo", "Kompostování v praxi", "Výživa bez chemie"] },
   { icon: LayoutGrid, title: "Záhony bez rytí", items: ["No-dig metoda krok za krokem", "Vrstvení materiálů", "Praktická ukázka na místě"] },
   

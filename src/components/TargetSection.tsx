@@ -4,7 +4,7 @@ import { Check } from "lucide-react";
 const items = [
   "Chceš pěstovat vlastní zeleninu, ale nevíš, kde začít",
   "Už jsi něco zkoušel/a, ale výsledky neodpovídají úsilí",
-  "Hledáš jednoduchý systém, ne další článek na internetu",
+  "Hledáš funkční systém, ne další článek na internetu",
   "Záleží ti na přírodním přístupu bez chemie",
 ];
 
