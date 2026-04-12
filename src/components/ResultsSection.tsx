@@ -3,7 +3,7 @@ import { Sprout, Calendar, Lightbulb, Leaf, Heart, Hammer } from "lucide-react";
 
 const results = [
   { icon: Sprout, text: "Budeš vědět, co a kdy zasít a zasadit" },
-  { icon: Calendar, text: "Vytvoříš si vlastní osevní plán na celou sezónu" },
+  { icon: Calendar, text: "Vybereš a na míru Tvé zahradě zakreslíš, co chceš pěstovat" },
   { icon: Lightbulb, text: "Pochopíš principy, ne jen recepty" },
   { icon: Leaf, text: "Naučíš se pracovat s půdou, ne proti ní" },
   { icon: Hammer, text: "Založíš záhon bez rytí – prakticky na místě" },
