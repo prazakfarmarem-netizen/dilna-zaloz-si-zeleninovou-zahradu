@@ -45,11 +45,9 @@ const HeroSection = () => {
             variant="hero"
             size="lg"
             className="h-14 px-10 rounded-full"
-            asChild
+            onClick={scrollToRegistration}
           >
-            <a href="https://www.fairplay.events/cs/zaloz-si-vlastni-zeleninovou-zahradu-2026-f99b" target="_blank" rel="noopener noreferrer">
-              Chci na dílnu
-            </a>
+            Chci na dílnu
           </Button>
         </motion.div>
       </div>
