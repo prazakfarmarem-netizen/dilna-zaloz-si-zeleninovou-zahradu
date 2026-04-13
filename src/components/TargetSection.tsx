@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
+import tomatoHarvest from "@/assets/tomato-harvest.jpeg";
 
 const items = [
   "Chceš pěstovat vlastní zeleninu, ale nevíš, kde začít",
@@ -45,6 +46,20 @@ const TargetSection = () => (
         className="bg-leaf-light border border-leaf/20 rounded-lg p-5 text-center"
       >
         <p className="text-primary font-semibold text-lg">👉 {highlight}</p>
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ delay: 0.3 }}
+        className="mt-8 max-w-md mx-auto"
+      >
+        <img
+          src={tomatoHarvest}
+          alt="Úroda rajčat ze zahrady"
+          className="w-full rounded-2xl object-cover"
+        />
       </motion.div>
     </div>
   </section>
