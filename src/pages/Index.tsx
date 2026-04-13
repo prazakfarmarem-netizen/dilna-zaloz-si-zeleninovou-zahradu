@@ -5,6 +5,7 @@ import TargetSection from "@/components/TargetSection";
 import ResultsSection from "@/components/ResultsSection";
 import WavyDivider from "@/components/WavyDivider";
 import AboutSection from "@/components/AboutSection";
+import WavyDividerBottom from "@/components/WavyDividerBottom";
 import LearnSection from "@/components/LearnSection";
 import TimelineSection from "@/components/TimelineSection";
 import DeliverablesSection from "@/components/DeliverablesSection";
@@ -24,6 +25,7 @@ const Index = () => (
     <ResultsSection />
     <WavyDivider />
     <AboutSection />
+    <WavyDividerBottom />
     <LearnSection />
     <TimelineSection />
     <DeliverablesSection />
