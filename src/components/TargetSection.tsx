@@ -9,6 +9,8 @@ const items = [
   "Záleží ti na přírodním přístupu bez chemie",
 ];
 
+const specialItem = "Chceš si již toto léto vychutnat plody své zahrady";
+
 const highlight = "Chceš, aby to fungovalo i bez neustálého pletí a zalévání";
 
 const TargetSection = () => (
@@ -37,6 +39,17 @@ const TargetSection = () => (
             <span className="text-foreground leading-relaxed">{item}</span>
           </motion.div>
         ))}
+
+        <motion.div
+          initial={{ opacity: 0, x: -15 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: items.length * 0.1 }}
+          className="flex items-start gap-3 bg-leaf/10 border border-leaf/30 rounded-lg px-4 py-3"
+        >
+          <Check className="w-5 h-5 text-leaf mt-0.5 shrink-0" />
+          <span className="text-foreground leading-relaxed font-semibold">{specialItem}</span>
+        </motion.div>
       </div>
 
       <motion.div
