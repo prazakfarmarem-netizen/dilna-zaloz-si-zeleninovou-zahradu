@@ -51,11 +51,11 @@ const LocationSection = () => (
         </div>
       </div>
 
-      <div className="flex flex-col items-center mt-10">
+      <div className="flex flex-col items-center mt-10 overflow-hidden">
         <img
           src={gardenPhoto}
           alt="Zeleninová zahrada"
-          className="w-[95%] rounded-2xl object-cover max-h-[500px]"
+          className="w-[140%] rounded-2xl object-cover max-h-[500px]"
         />
         <p className="mt-3 text-sm text-[hsl(30,30%,40%)] italic">Naše rodinná farma, červen 2025</p>
       </div>
