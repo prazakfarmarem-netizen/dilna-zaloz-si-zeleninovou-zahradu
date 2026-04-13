@@ -59,7 +59,7 @@ const WaitlistSection = () => {
           </h2>
 
           <p className="text-muted-foreground leading-relaxed max-w-lg mx-auto mb-2">
-            Pokud se ti aktuální termín nehodí, nech mi na sebe kontakt. Dám ti vědět, jakmile vypíšu další dílnu nebo otevřu nové místo.
+            Pokud se ti aktuální termín nehodí, nech mi na sebe kontakt. Dám ti vědět, jakmile vypíšu další dílnu.
           </p>
 
           <p className="text-xs text-muted-foreground mb-8">
