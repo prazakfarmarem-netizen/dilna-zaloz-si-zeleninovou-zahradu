@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { BookOpen, Shovel, Layers, LayoutGrid } from "lucide-react";
-import tomatoHarvest from "@/assets/tomato-harvest.jpeg";
 
 const blocks = [
   { icon: BookOpen, title: "Základy", items: ["Jak pěstovat přírodně", "Jak funguje zdravá zahrada", "Plán výsadby na míru Tvé zahradě"] },
@@ -48,19 +47,6 @@ const LearnSection = () => (
         ))}
       </div>
 
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ delay: 0.5 }}
-        className="mt-8"
-      >
-        <img
-          src={tomatoHarvest}
-          alt="Úroda rajčat ze zahrady"
-          className="w-full rounded-2xl object-cover"
-        />
-      </motion.div>
     </div>
   </section>
 );
