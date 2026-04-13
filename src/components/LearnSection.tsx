@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { BookOpen, Shovel, Layers, LayoutGrid, Wrench } from "lucide-react";
+import { BookOpen, Shovel, Layers, LayoutGrid } from "lucide-react";
+import tomatoHarvest from "@/assets/tomato-harvest.jpeg";
 
 const blocks = [
   { icon: BookOpen, title: "Základy", items: ["Jak pěstovat přírodně", "Jak funguje zdravá zahrada", "Plán výsadby na míru Tvé zahradě"] },
