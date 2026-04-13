@@ -48,7 +48,7 @@ const HeroSection = () => {
             asChild
           >
             <a href="https://www.fairplay.events/cs/zaloz-si-vlastni-zeleninovou-zahradu-2026-f99b" target="_blank" rel="noopener noreferrer">
-              Koupit vstupenku
+              Chci na dílnu
             </a>
           </Button>
         </motion.div>
