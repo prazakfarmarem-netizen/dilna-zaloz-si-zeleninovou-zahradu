@@ -1,0 +1,1 @@
+ALTER TABLE public.interest_signups ADD COLUMN name text;
