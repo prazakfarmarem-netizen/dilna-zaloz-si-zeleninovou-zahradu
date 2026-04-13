@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { MapPin, Train } from "lucide-react";
+import gardenPhoto from "@/assets/garden-photo.png";
 
 const LocationSection = () => (
   <section className="section-padding bg-card">
@@ -49,8 +50,15 @@ const LocationSection = () => (
           />
         </div>
       </div>
+
+      <div className="flex flex-col items-center mt-10">
+        <img
+          src={gardenPhoto}
+          alt="Zeleninová zahrada"
+          className="w-3/4 rounded-2xl object-cover max-h-[500px]"
+        />
+        <p className="mt-3 text-sm text-[hsl(30,30%,40%)] italic">Naše rodinná farma, červen 2025</p>
+      </div>
     </div>
   </section>
 );
-
-export default LocationSection;
