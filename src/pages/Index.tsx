@@ -10,7 +10,6 @@ import PricingSection from "@/components/PricingSection";
 import FAQSection from "@/components/FAQSection";
 import FinalCTASection from "@/components/FinalCTASection";
 import StickyButton from "@/components/StickyButton";
-import gardenPhoto from "@/assets/garden-photo.png";
 
 const Index = () => (
   <>
@@ -19,9 +18,6 @@ const Index = () => (
     <TargetSection />
     <ResultsSection />
     <LearnSection />
-    <div className="w-full">
-      <img src={gardenPhoto} alt="Zeleninová zahrada" className="w-full h-auto object-cover" />
-    </div>
     <TimelineSection />
     <DeliverablesSection />
     <LocationSection />
