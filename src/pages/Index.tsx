@@ -5,11 +5,11 @@ import TargetSection from "@/components/TargetSection";
 import ResultsSection from "@/components/ResultsSection";
 import AboutSection from "@/components/AboutSection";
 import LearnSection from "@/components/LearnSection";
-
 import TimelineSection from "@/components/TimelineSection";
 import DeliverablesSection from "@/components/DeliverablesSection";
 import LocationSection from "@/components/LocationSection";
 import PricingSection from "@/components/PricingSection";
+import WaitlistSection from "@/components/WaitlistSection";
 import FAQSection from "@/components/FAQSection";
 import FinalCTASection from "@/components/FinalCTASection";
 import StickyButton from "@/components/StickyButton";
@@ -23,11 +23,11 @@ const Index = () => (
     <ResultsSection />
     <AboutSection />
     <LearnSection />
-    
     <TimelineSection />
     <DeliverablesSection />
     <LocationSection />
     <PricingSection />
+    <WaitlistSection />
     <FAQSection />
     <FinalCTASection />
     <StickyButton />
