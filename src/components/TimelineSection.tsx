@@ -5,7 +5,7 @@ const timeline = [
   { time: "10:30–12:30", label: "Co potřebuješ znát", desc: "Principy, plánování, půda, osevní plán" },
   { time: "12:30–14:00", label: "Oběd", desc: "Domácí vegetariánský oběd, volná diskuze" },
   { time: "14:00–17:00", label: "Co potřebuješ dělat", desc: "Zakládání záhonů, výsev, mulčování, kompost" },
-  { time: "17:00", label: "Závěr", desc: "Shrnutí, prostor na dotazy, předání materiálů" },
+  { time: "17:00", label: "Závěr", desc: "Shrnutí, prostor na dotazy, rozloučení" },
 ];
 
 const TimelineSection = () => (
