@@ -22,6 +22,7 @@ const Index = () => (
     <ProblemSection />
     <TargetSection />
     <ResultsSection />
+    <WavyDivider />
     <AboutSection />
     <LearnSection />
     <TimelineSection />
