@@ -15,24 +15,34 @@ import WaitlistSection from "@/components/WaitlistSection";
 import FAQSection from "@/components/FAQSection";
 import FinalCTASection from "@/components/FinalCTASection";
 import StickyButton from "@/components/StickyButton";
+import SectionCurve from "@/components/SectionCurve";
 
 const Index = () => (
   <>
     <HeroSection />
     <VideoSection />
+    <SectionCurve from="bg" to="card" />
     <ProblemSection />
+    <SectionCurve from="card" to="bg" />
     <TargetSection />
+    <SectionCurve from="bg" to="card" />
     <ResultsSection />
     <WavyDivider />
     <AboutSection />
     <WavyDividerBottom />
     <LearnSection />
+    <SectionCurve from="bg" to="card" />
     <TimelineSection />
+    <SectionCurve from="card" to="bg" />
     <DeliverablesSection />
+    <SectionCurve from="bg" to="card" />
     <LocationSection />
+    <SectionCurve from="card" to="bg" />
     <PricingSection />
     <WaitlistSection />
+    <SectionCurve from="bg" to="card" />
     <FAQSection />
+    <SectionCurve from="card" to="bg" />
     <FinalCTASection />
     <StickyButton />
 
