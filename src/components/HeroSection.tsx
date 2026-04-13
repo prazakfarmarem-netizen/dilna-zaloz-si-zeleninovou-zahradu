@@ -55,13 +55,13 @@ const HeroSection = () => {
       {/* Soft inverted U curve at the bottom */}
       <div className="absolute bottom-0 left-0 right-0 z-10">
         <svg
-          viewBox="0 0 1200 48"
+          viewBox="0 0 1200 60"
           preserveAspectRatio="none"
-          className="w-full h-10 block"
+          className="w-full h-12 block"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M0 48 L0 12 Q300 -12 600 -12 Q900 -12 1200 12 L1200 48 Z"
+            d="M0 60 L0 30 Q600 -30 1200 30 L1200 60 Z"
             fill="hsl(40 33% 96%)"
           />
         </svg>
