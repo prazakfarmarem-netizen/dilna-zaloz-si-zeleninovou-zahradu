@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Sprout, Calendar, Lightbulb, Leaf, Heart, Hammer } from "lucide-react";
+import tomatoHarvest from "@/assets/tomato-harvest.jpeg";
 
 const results = [
   { icon: Calendar, text: "Vybereš a na míru Tvé zahradě zakreslíš, co chceš pěstovat" },
