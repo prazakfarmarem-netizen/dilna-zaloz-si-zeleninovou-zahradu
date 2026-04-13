@@ -16,6 +16,7 @@ import StickyButton from "@/components/StickyButton";
 const Index = () => (
   <>
     <HeroSection />
+    <VideoSection />
     <ProblemSection />
     <TargetSection />
     <ResultsSection />
