@@ -14,6 +14,24 @@ export type Database = {
   }
   public: {
     Tables: {
+      interest_signups: {
+        Row: {
+          created_at: string | null
+          email: string
+          id: string
+        }
+        Insert: {
+          created_at?: string | null
+          email: string
+          id?: string
+        }
+        Update: {
+          created_at?: string | null
+          email?: string
+          id?: string
+        }
+        Relationships: []
+      }
       registrations: {
         Row: {
           created_at: string

@@ -1,10 +1,38 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Users, CalendarDays, AlertTriangle } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import { Users, CalendarDays, AlertTriangle, CheckCircle2 } from "lucide-react";
+import { supabase } from "@/integrations/supabase/client";
+import { toast } from "@/hooks/use-toast";
 
 const PricingSection = () => {
-  const scrollToRegistration = () => {
-    document.getElementById("registrace")?.scrollIntoView({ behavior: "smooth" });
+  const [email, setEmail] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleInterestSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!email.trim()) return;
+    setLoading(true);
+
+    const { error } = await supabase.from("interest_signups").insert({ email: email.trim() });
+
+    // Notify owner via Make.com webhook (fire-and-forget)
+    fetch("https://hook.eu1.make.com/v0u8yhratoofredi35zkusubaiuw4r36", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ type: "interest", email: email.trim() }),
+    }).catch(() => {});
+
+    setLoading(false);
+
+    if (error) {
+      toast({ title: "Chyba při odesílání", description: "Zkus to prosím znovu.", variant: "destructive" });
+      return;
+    }
+
+    setSubmitted(true);
   };
 
   return (
@@ -56,6 +84,39 @@ const PricingSection = () => {
               Koupit vstupenku
             </a>
           </Button>
+
+          {/* Interest signup */}
+          <div className="mt-8 bg-sand/60 border border-border rounded-2xl p-5">
+            <p className="text-sm text-foreground leading-relaxed mb-4">
+              Nyní se nemohu zúčastnit, ale až budeš chystat další akce, chci to vědět jako první!
+            </p>
+            {submitted ? (
+              <div className="flex items-center gap-2 justify-center text-leaf">
+                <CheckCircle2 className="w-5 h-5" />
+                <span className="text-sm font-medium">Díky! Dáme ti vědět.</span>
+              </div>
+            ) : (
+              <form onSubmit={handleInterestSubmit} className="flex gap-2">
+                <Input
+                  type="email"
+                  required
+                  maxLength={255}
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="tvůj e-mail"
+                  className="bg-background rounded-full text-sm h-10"
+                />
+                <Button
+                  type="submit"
+                  variant="hero"
+                  className="rounded-full shrink-0 h-10 px-5 text-sm"
+                  disabled={loading}
+                >
+                  {loading ? "..." : "Odeslat"}
+                </Button>
+              </form>
+            )}
+          </div>
         </motion.div>
       </div>
     </section>
