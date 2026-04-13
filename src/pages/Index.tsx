@@ -3,6 +3,7 @@ import VideoSection from "@/components/VideoSection";
 import ProblemSection from "@/components/ProblemSection";
 import TargetSection from "@/components/TargetSection";
 import ResultsSection from "@/components/ResultsSection";
+import AboutSection from "@/components/AboutSection";
 import LearnSection from "@/components/LearnSection";
 
 import TimelineSection from "@/components/TimelineSection";
@@ -20,6 +21,7 @@ const Index = () => (
     <ProblemSection />
     <TargetSection />
     <ResultsSection />
+    <AboutSection />
     <LearnSection />
     
     <TimelineSection />
