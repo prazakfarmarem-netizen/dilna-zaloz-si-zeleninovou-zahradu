@@ -1,4 +1,5 @@
 import HeroSection from "@/components/HeroSection";
+import VideoSection from "@/components/VideoSection";
 import ProblemSection from "@/components/ProblemSection";
 import TargetSection from "@/components/TargetSection";
 import ResultsSection from "@/components/ResultsSection";
@@ -15,6 +16,7 @@ import StickyButton from "@/components/StickyButton";
 const Index = () => (
   <>
     <HeroSection />
+    <VideoSection />
     <ProblemSection />
     <TargetSection />
     <ResultsSection />
