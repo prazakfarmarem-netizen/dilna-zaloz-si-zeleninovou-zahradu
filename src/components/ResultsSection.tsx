@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Sprout, Calendar, Lightbulb, Leaf, Heart, Hammer } from "lucide-react";
+import tomatoHarvest from "@/assets/tomato-harvest.jpeg";
 
 const results = [
   { icon: Calendar, text: "Vybereš a na míru Tvé zahradě zakreslíš, co chceš pěstovat" },
@@ -39,6 +40,20 @@ const ResultsSection = () => (
           </motion.div>
         ))}
       </div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ delay: 0.6 }}
+        className="mt-8"
+      >
+        <img
+          src={tomatoHarvest}
+          alt="Úroda rajčat ze zahrady"
+          className="w-full rounded-2xl object-cover"
+        />
+      </motion.div>
     </div>
   </section>
 );
