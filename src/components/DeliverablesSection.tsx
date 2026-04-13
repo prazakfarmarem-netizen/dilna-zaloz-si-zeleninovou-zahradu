@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { BookOpen, Calendar, FileText, ClipboardCheck, MessageCircle } from "lucide-react";
 
 const items = [
-  { icon: BookOpen, title: "Pracovní sešit", desc: "Tištěný průvodce, do kterého si budeš během dne zapisovat a díky kterému budeš doma vědět, jak postupovat" },
+  { icon: BookOpen, title: "Pracovní sešit", desc: "Tištěný průvodce, do kterého si budeš během dne zapisovat a díky kterému budeš doma přesně vědět, jak postupovat" },
   { icon: Calendar, title: "Osevní kalendář", desc: " Plán výsevu a výsadby na míru pro Tvou zahradu" },
   
   { icon: FileText, title: "PDF materiály", desc: "Shrnutí dne a další podklady ke stažení" },
