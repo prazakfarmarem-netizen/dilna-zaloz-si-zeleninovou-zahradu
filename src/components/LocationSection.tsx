@@ -62,3 +62,5 @@ const LocationSection = () => (
     </div>
   </section>
 );
+
+export default LocationSection;
