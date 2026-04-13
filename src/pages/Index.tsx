@@ -3,7 +3,7 @@ import ProblemSection from "@/components/ProblemSection";
 import TargetSection from "@/components/TargetSection";
 import ResultsSection from "@/components/ResultsSection";
 import LearnSection from "@/components/LearnSection";
-import GardenPhoto from "@/components/GardenPhoto";
+
 import TimelineSection from "@/components/TimelineSection";
 import DeliverablesSection from "@/components/DeliverablesSection";
 import LocationSection from "@/components/LocationSection";
@@ -19,7 +19,7 @@ const Index = () => (
     <TargetSection />
     <ResultsSection />
     <LearnSection />
-    <GardenPhoto />
+    
     <TimelineSection />
     <DeliverablesSection />
     <LocationSection />
