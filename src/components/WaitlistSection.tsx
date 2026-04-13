@@ -17,7 +17,7 @@ const WaitlistSection = () => {
     if (!email.trim()) return;
     setLoading(true);
 
-    const { error } = await supabase.from("interest_signups").insert({ email: email.trim() });
+    const { error } = await supabase.from("interest_signups").insert({ email: email.trim(), name: name.trim() || null });
 
     fetch("https://hook.eu1.make.com/v0u8yhratoofredi35zkusubaiuw4r36", {
       method: "POST",
