@@ -19,6 +19,7 @@ const Index = () => (
     <TargetSection />
     <ResultsSection />
     <LearnSection />
+    <GardenPhoto />
     <TimelineSection />
     <DeliverablesSection />
     <LocationSection />
