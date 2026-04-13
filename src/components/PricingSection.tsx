@@ -8,7 +8,7 @@ const PricingSection = () => {
   };
 
   return (
-    <section className="section-padding">
+    <section id="pricing" className="section-padding">
       <div className="section-container">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
