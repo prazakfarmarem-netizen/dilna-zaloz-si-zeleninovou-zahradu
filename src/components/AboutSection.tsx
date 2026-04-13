@@ -59,7 +59,7 @@ const AboutSection = () => (
           </div>
 
           <p className="text-muted-foreground leading-relaxed">
-            Jsem původem Pražák, který v sobě objevil lásku k rostlinám. Dnes buduju vlastní rodinou zahradu, pěstuju zeleninu a ovocné stromy, stavím zázemí pro pěstování a hledám cesty k větší potravinové soběstačnosti. Na dílně předávám to, co sám používám a co mi v praxi skutečně funguje.
+            Jsem původem Pražák, který v sobě objevil lásku k rostlinám. Dnes buduju vlastní rodinnou zahradu, pěstuju zeleninu a ovocné stromy, stavím zázemí pro pěstování a hledám cesty k větší potravinové soběstačnosti. Na dílně předávám to, co sám používám a co mi v praxi skutečně funguje.
           </p>
 
           <p className="text-foreground font-medium leading-relaxed">
