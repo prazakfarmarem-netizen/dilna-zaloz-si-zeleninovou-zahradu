@@ -47,6 +47,20 @@ const LearnSection = () => (
           </motion.div>
         ))}
       </div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ delay: 0.5 }}
+        className="mt-8"
+      >
+        <img
+          src={tomatoHarvest}
+          alt="Úroda rajčat ze zahrady"
+          className="w-full rounded-2xl object-cover"
+        />
+      </motion.div>
     </div>
   </section>
 );
