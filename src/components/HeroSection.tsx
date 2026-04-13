@@ -4,7 +4,7 @@ import heroImage from "@/assets/hero-garden.png";
 
 const HeroSection = () => {
   const scrollToRegistration = () => {
-    document.getElementById("registrace")?.scrollIntoView({ behavior: "smooth" });
+    document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
