@@ -51,7 +51,7 @@ const TargetSection = () => (
       >
         {highlights.map((text, i) => (
           <p key={i} className="text-foreground font-semibold text-lg leading-relaxed">
-            👉 {text}
+            🍅 {text}
           </p>
         ))}
       </motion.div>
