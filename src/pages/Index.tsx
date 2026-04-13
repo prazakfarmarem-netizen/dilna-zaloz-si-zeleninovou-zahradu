@@ -3,6 +3,7 @@ import VideoSection from "@/components/VideoSection";
 import ProblemSection from "@/components/ProblemSection";
 import TargetSection from "@/components/TargetSection";
 import ResultsSection from "@/components/ResultsSection";
+import WavyDivider from "@/components/WavyDivider";
 import AboutSection from "@/components/AboutSection";
 import LearnSection from "@/components/LearnSection";
 import TimelineSection from "@/components/TimelineSection";
@@ -21,6 +22,7 @@ const Index = () => (
     <ProblemSection />
     <TargetSection />
     <ResultsSection />
+    <WavyDivider />
     <AboutSection />
     <LearnSection />
     <TimelineSection />
